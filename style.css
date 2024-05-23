@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    font-size: 70px;
+    top: 50px;
+    left: 30px;
+}
+
+.region {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    top: 50px;
+    border: 10px solid orange;
+    border-radius: 50px;
+    border-collapse: collapse;
+}
+
+.icon {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+}
+
+.choise region {
+    position: relative;
+    left: 30px
+}
+
+a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    top: 70px;
+    font-size: 25px;
+    margin: 5px;
+    color: black;
+}
+
+.link1 {
+   transition: all 0.1s linear;
+   position: relative;
+   right: 20px;
+}
+
+.link2 {
+    transition: all 0.1s linear;
+    position: relative;
+    left: 20px;
+}
+
+.link1:hover {
+    color: green;
+    text-shadow: 5px 5px 5px green;
+    font-weight: bold;
+}
+
+.link2:hover {
+    color: red;
+    text-shadow: 5px 5px 5px red;
+    font-weight: bold;
+}
+
+.link1:focus {
+    font-size: 30px;
+}
+
+.link2:focus {
+    font-size: 30px;
+}
