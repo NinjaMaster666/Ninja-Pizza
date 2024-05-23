@@ -1,0 +1,236 @@
+body {
+    font-family: sans-serif;
+    position: relative;
+    left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+
+}
+
+a:focus {
+    font-size: 15px;
+}
+
+.red-point {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    right: 2px;
+}
+
+.icon {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top: 20px;
+}
+
+.title {
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+}
+
+.Number-One {
+    position: relative;
+    left: 80px;
+    bottom: 75px;
+}
+
+.header {
+    border-bottom: 1px solid grey;
+    border-radius: 10px;
+}
+
+.header a {
+    transition: all 0.1s linear;
+}
+
+.header a:hover {
+    color: orange;
+    text-shadow: 0 5px 5px orange;
+}
+
+.header a:visited {
+    border-top: 1px dotted purple;
+}
+
+.life {
+    border-right: 1px solid grey;
+    border-radius: 5px;
+}
+
+.job {
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    border-radius: 5px;
+}
+
+.about {
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    border-radius: 5px;
+}
+
+.choise-region {
+    color: orange;
+}
+
+.choise {
+    position: relative;
+    left: 255px;
+    bottom: 136px;
+}
+
+.grade {
+    position: relative;
+    bottom: 20px;
+}
+
+.star {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    left: 2px;
+}
+
+main {
+    position: relative;
+    bottom: 150px;
+}
+
+.eshkere {
+    position: relative;
+    display: inline-block;
+    bottom: 10px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-radius: 15%;
+    transition: all 0.1s linear;
+}
+
+.eshkere1 {
+    position: relative;
+    display: inline-block;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-radius: 15%;
+    top: 10px;
+    background-image: linear-gradient(gold, orange);
+    transition: all 0.1s linear;
+}
+
+.eshkere1:hover {
+    border: 0px solid grey;
+    font-weight: bold;
+    box-shadow: 0 0 5px 5px gold;
+}
+
+.eshkere:hover {
+    border: 0px solid grey;
+    position: relative;
+    bottom: 11px;
+    box-shadow: 0 0 5px 0 blue;
+}
+
+.eshkere-pizza {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 0px solid black;
+    border-radius: 30px;
+}
+
+.eshkere-title {
+    position: relative;
+    left: 0px;
+    bottom: 30px;
+}
+
+.price {
+    position: relative;
+    left: 55px;
+    bottom: 50px;
+}
+
+.eshkeree {
+    position: relative;
+    top: 30px;
+}
+
+.present {
+    position: relative;
+    bottom: 55px;
+    left: 45px;
+    font-size: 13px;
+}
+
+footer {
+    background-color: #181818;
+    padding: 10px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.info {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-weight: lighter;
+}
+
+.info2 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feedback {
+    color: grey;
+    transition: all 0.1s linear;
+}
+
+.feedback:hover {
+    color: white;
+}
+
+.basket {
+    color: white;
+    position: fixed;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 25px;
+    padding: 10px;
+    top: 60px;
+    left: 800px;
+    box-shadow: 3px 3px 0 0 gold;
+    transition: all 0.1s linear;
+}
+
+.basket:focus {
+    box-shadow: 0 0 0 0 gold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.telegram-logo {
+    position: fixed;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+}
+
+.ad {
+    border: 5px dotted gold;
+    border-radius: 25px;
+    padding: 5px;
+}
